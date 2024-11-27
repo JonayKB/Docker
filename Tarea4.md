@@ -32,3 +32,17 @@ CONTAINER ID   IMAGE                        COMMAND                  CREATED    
 ### Acceder a la interfaz de CloudBeaver
 Accedemos a http://localhost:8978
 
+Y realizamos la configuracion de la conexion con el contenedor de mariadb:
+<img src="./images/config"/>
+En este caso la pondremos a ninguna base de datos para ver todo
+
+Prueba de que funciona:
+<img src="./images/finish.png"
+
+### Eliminar/Parar contenedores
+```bash
+docker stop cloudbeaver 
+```
+```bash
+docker stop mariadb-container
+```
