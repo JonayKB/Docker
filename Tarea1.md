@@ -1,8 +1,6 @@
-# Docker PGL
-- [Docker PGL](#docker-pgl)
-  - [Tarea 1](#tarea-1)
-    - [Paso 1: Trabajar con imágenes de Docker](#paso-1-trabajar-con-imágenes-de-docker)
-    - [Paso 2: Administrar contenedores de Docker](#paso-2-administrar-contenedores-de-docker)
+- [Tarea 1](#tarea-1)
+  - [Paso 1: Trabajar con imágenes de Docker](#paso-1-trabajar-con-imágenes-de-docker)
+  - [Paso 2: Administrar contenedores de Docker](#paso-2-administrar-contenedores-de-docker)
 
 ## Tarea 1
 ### Paso 1: Trabajar con imágenes de Docker
