@@ -33,11 +33,12 @@ CONTAINER ID   IMAGE                        COMMAND                  CREATED    
 Accedemos a http://localhost:8978
 
 Y realizamos la configuracion de la conexion con el contenedor de mariadb:
-<img src="./images/config"/>
+<img src="./images/config.jpg"/>
 En este caso la pondremos a ninguna base de datos para ver todo
 
 Prueba de que funciona:
-<img src="./images/finish.png"
+
+<img src="./images/finish.png"/>
 
 ### Eliminar/Parar contenedores
 ```bash
