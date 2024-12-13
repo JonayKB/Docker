@@ -28,7 +28,7 @@ my_db_volume
 
 #### Crear Docker-Compose
 
-```bash
+```yml
 version: '3.3'
 services:
   mariadb:
@@ -100,4 +100,8 @@ volumes:
   mongodb_data:
 networks:
   newNetwork:
-´´´
+
+```
+#### Prueba de que funciona
+![MongoExpress](image.png)
+![MariaDB](image-1.png)
