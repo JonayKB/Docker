@@ -67,6 +67,17 @@ services:
       - mariadb
     networks:
       - newNetwork
+  tomcat2:
+    image: tomcat:10.1.9-jdk17
+    container_name: tomcat2
+    ports:
+      - "8091:8081"
+    volumes:
+      - ./sample.war:/usr/local/tomcat/webapps/sample.war
+    depends_on:
+      - mariadb
+    networks:
+      - newNetwork
 
   cloudbeaver:
     image: dbeaver/cloudbeaver:latest
@@ -100,7 +111,6 @@ volumes:
   mongodb_data:
 networks:
   newNetwork:
-
 ```
 #### Prueba de que funciona
 ![MongoExpress](image.png)
